@@ -1,3 +1,4 @@
+import { IAdmin } from "../interfaces/IAdmin";
 import User from "./User";
 
 export default class Admin extends User implements IAdmin {

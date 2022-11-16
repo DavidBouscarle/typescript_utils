@@ -1,5 +1,5 @@
 import { IUserAware } from "./IUserAware";
 
-interface IAdmin extends IUserAware {
+export interface IAdmin extends IUserAware {
     roles: string[];
 }

@@ -1,4 +1,5 @@
-import { final } from "../decorators/final.decorator";
+import { final } from "../decorators/final.decorators";
+import { IUserAware } from '../interfaces/IUserAware';
 
 @final
 export default class User implements IUserAware {
